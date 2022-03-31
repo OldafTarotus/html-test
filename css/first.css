@@ -1,53 +1,35 @@
-
-
-
-.parent {
-    margin-bottom: 20px;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
 .one {
-    background-color: rgb(192, 226, 43);
-    padding: 10px;
-    width: 600px;
-    float: left;
-    position: relative;
+    background-color: rgb(148, 11, 23);
+    width: 200px;
+    height: 50px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
 }
 
-.user {
-    background-color: aliceblue;
-    width: 50px;
-    margin-right: 20px;
-    padding: 10px;
-    height: 55.5px;
-    float: left;
-    font-size: 50px;
-    text-align: center;
+.one:hover {
+    background-color: rgb(6, 10, 1);
+    width: 300px;
+    height: 120px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 100px;
+    font-weight: bold;
 }
 
-hr {
-    margin: 20px;
+.two {
+background-color: black;
+color: white;
+width: fit-content;
+border: 1px solid yellow;
 }
 
-.one::after {
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    top: 0;
-    right: 0;
-    background-color: rgb(89, 18, 155);
-}
-
-.one::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    background-color: white;
-    border-width: 10px;
-    border-style: solid;
-    border-color: transparent rgb(113, 20, 199) transparent transparent;
-    top: 30px;
-    left: -30px;
+.two::selection {
+    background-color: black;
+    color: yellow;
 }
