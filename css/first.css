@@ -2,12 +2,45 @@
     box-sizing: border-box;
 }
 
+.one {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    transition-duration: 2s;
+    transition-delay: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.two {
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px; 
+    text-indent: 10%;
+    
+}
+
+.one:hover {
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
 .outside {
     display: flex;
     background-color: yellow;
     width: 800px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 20px auto; 
 }
 
 .outside div {
@@ -15,6 +48,23 @@
     color: white;
     width: 80px;
     text-align: center;
-    padding 10px;
+    padding:10px;
     margin-right: 5px;
+    flex-grow: 1;
+}
+
+.color {
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px auto;
+    border: 3px solid red;
+    background-image: linear-gradient(to right,
+    red,
+    green,
+    blue,
+    yellow,
+    black,
+    white,
+    orange); 
 }
