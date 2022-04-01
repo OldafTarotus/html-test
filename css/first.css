@@ -2,34 +2,19 @@
     box-sizing: border-box;
 }
 
-.one {
-    background-color: rgb(148, 11, 23);
-    width: 200px;
-    height: 50px;
-    transition-duration: 1s;
-    transition-delay: 1s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+.outside {
+    display: flex;
+    background-color: yellow;
+    width: 800px;
+    padding: 10px;
+    margin: 20px auto;
 }
 
-.one:hover {
-    background-color: rgb(6, 10, 1);
-    width: 300px;
-    height: 120px;
+.outside div {
+    background-color: brown;
     color: white;
-    letter-spacing: 5px;
-    font-size: 100px;
-    font-weight: bold;
-}
-
-.two {
-background-color: black;
-color: white;
-width: fit-content;
-border: 1px solid yellow;
-}
-
-.two::selection {
-    background-color: black;
-    color: yellow;
+    width: 80px;
+    text-align: center;
+    padding 10px;
+    margin-right: 5px;
 }
