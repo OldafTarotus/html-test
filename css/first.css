@@ -68,3 +68,28 @@
     white,
     orange); 
 }
+
+footer {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(19, 6, 2);
+}
+
+
+a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+}
+
+a:hover {
+    color: yellow;
+    /* pointer-events: none; */
+}
+
+a:visited {
+    color: black;
+}
