@@ -25,6 +25,7 @@
 }
 
 .parent:hover {
-    transform: scale( -1 );
+    transform: scale( -1 ) rotate(360deg);
+    opacity: .6;
     background-color: blue;
 }
