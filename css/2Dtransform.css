@@ -13,7 +13,6 @@
     justify-content: center;
     align-items: center;
     transition: all 2s 2s linear;
-
 }
 
 
@@ -25,7 +24,7 @@
 }
 
 .parent:hover {
-    transform: scale( -1 ) rotate(360deg);
+    transform: scale( -1 ) rotate(180deg);
     opacity: .6;
     background-color: blue;
 }
