@@ -6,7 +6,7 @@
     padding: 5px;
     display: flex;
     justify-content: center;
-    transform: rotate(30deg);
+    transform: rotate3d(5, 6, 8, 40deg );
 }
 
 .child {
