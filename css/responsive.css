@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.parent > div {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 290px;
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .parent div {
+        background-color: black;
+    }
+}
